@@ -1,0 +1,86 @@
+<style type="text/css">
+		*{
+			box-sizing: border-box;	
+			margin: 0px;
+			padding: 0px;
+		}
+		h1{
+			text-align: center;
+			font-size: 175%;
+		}
+		.container{
+			
+			margin: 0px;
+			padding: 10px;
+		}
+
+		.content{
+			border: 3px solid black;
+			margin-bottom: 10px;
+			background-color: #d8cfcf;
+			height: 250px;
+
+		}
+
+		.content:hover {
+			background-color: #FFFFFF;
+			
+		}
+		
+		div > h3{
+			float: right;
+			margin-top : 0px;
+			font-size: 125%;
+			padding: 3px;
+			border: 2px solid black;
+			
+		}
+
+		#h1{
+			background-color: #da2323;
+			color: #FFFFFF;
+
+			}
+		#h2{
+			background-color: #de8181;
+		}	
+
+		#h3{
+			background-color: #dbf34a;
+		}
+		p{
+			position: relative;
+			clear: right;
+			padding: 5px;
+
+		}
+		@media( min-width:  992px){
+			.col-lg{
+				float: left;
+				width: 33.33%;
+				padding: 10px;
+				
+				box-sizing: border-box;		
+			}
+		}
+		@media( min-width: 768px ) and (max-width: 991px){
+			.col-md{
+				float: left;
+				width: 50%;
+				position: relative;
+				box-sizing: border-box;		
+				padding: 10px;
+			}
+
+			#p3{
+				width: 100%;
+				box-sizing: border-box;		
+			}
+
+		}
+
+		@media( max-width:  949px ){
+			
+		} 
+
+	</style>
